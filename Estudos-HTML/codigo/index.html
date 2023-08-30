@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos HTML</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <hr> <!-- Linha Horizontal -->
+        <h1>Estudos HTML V1.0</h1>
+        <h2>Tags</h2>
+        <h1 id="texto">Titulo 1</h1>
+        <p>Paragrafo 1</p>
+        <h2>Titulo 2</h2>
+        <p>Paragrafo 2</p>
+        <h3>Titulo 3</h3>
+        <p>Paragrafo 3</p>
+        <h4>Titulo 4</h4>
+        <p>Paragrafo 4</p>
+        <h5>Titulo 5</h5>
+        <p>Paragrafo 5</p>
+        <h6>Titulo 6</h6>
+        <p>Paragrafo 6</p>
+        <strong>Negrito</strong>
+        <br>
+        <em>Italico</em>
+        <br>
+        <s>Teste</s>
+        <br>
+        <a href="https://www.google.com.br">Google</a> <!-- Link para Sites ou Referencia -->
+        <h1>Estudos HTML V2.0</h1>
+        <h2>Simbolos</h2>
+        <p>        &reg;
+            &copy;
+            &trade;
+            &euro;
+            &pound;
+            &yen;
+            &cent;
+            &delta;
+            &alpha;
+            &omega;
+            &uarr;
+        </p>
+        <h2>Emojis</h2>
+            <p>
+                👍
+                &#x1F44D; <!-- Adicionar &#x para utilizar em hexadecimal-->
+            </p>
+        <h1>Estudos HTML V3.0</h1>
+        <h2>Marcação/Formatação/Citação</h2>
+        <p>Teste de <mark>Marcação</mark><br></p>
+        <p>Teste de codigo: <code>print.f("teste de print")</code><br></p>
+        <pre>
+            <p>Teste de pre formatação
+        Olá
+        Mundo
+        !
+        :)
+            </p>
+        </pre>
+        <p>Citação de <q>É muito melhor perceber um defeito em sim mesmo, do que dezenas no outro, pois o seu defeito você pode mudar.</q> - Dalai Lama</p>
+        <p><abbr title="Cascading Style Sheets">CSS</abbr> & <abbr title="HyperText Markup Language">HTML</abbr></p>
+        <p><bdo dir="rtl">Texto invertido</bdo></p>
+        <h1>Estudos HTML V4.0</h1>
+        <h2>Lista Ordenadas</h2>
+        <ol> <!--1 A a I i-->
+            <li>Acordar</li>
+            <li>Tomar Café</li>
+            <ol>
+                <li>Pão</li>
+                <li>Café com Leite</li>
+                <li>Docinho</li>
+            </ol>
+            <li>Escovar os Dentes</li>
+            <li>Estudar/Trabalhar</li>
+        </ol>
+        <h2>Lista Não-Ordenadas</h2> <!--disc circle square-->
+        <ul>
+            <li>Jantar</li>
+            <li>Ver Video</li>
+            <li>Escovar os Dentes</li>
+            <li>Dormir</li>
+        </ul>
+        <h2>Lista de Definições</h2>
+        <dl>
+            <dt>HTML</dt> <!--Lista de Definição-->
+            <dd>Linguagem de marcação para criação do conteudo de um site</dd>
+        </dl>
+        <h1>Estudos HTML V5.0</h1>
+        <h2>href</h2>
+        <p>Link para o Site <a href="https://itwe.com.br">ITWE</a></p>
+        <p>Link para o Site  em outra página <a href="https://itwe.com.br" target="_blank" rel="external">ITWE</a></p> <!-- Mais Info: https://www.w3schools.com/tags/att_a_rel.asp -->
+        <p>Link para a Página de <a href="giff.html" target="_self">Giff</a></p>
+        <h1>Estudos HTML V6.0</h1>
+        <h2>Imagens</h2>
+        <p>Tipos de Arquivos de Imagens que podem utilizar<br>
+        JPEG/JPG = Arquivo compactado  sem transparência <br>
+        <img src="img/floresta.jpg" alt=""> <br></p>
+        <p>PNG = Arquivo para melhor qualidade e com transparência <br>
+        <img src="img/google_logo.png" alt=""> <br></p>
+        <p>GIFF = Imagem com animação <br>
+        <img src="img/code.gif" alt=""> <br></p>
+        <!-- &alt = LESS THAN / &gt = GREATER THAN-->
+        <br>
+        <h2>Imagens Responsivas</h2>
+        <picture>
+            <source media="(max-width: 725px)" srcset="img/foto-p.png" type="image/png">
+            <source media="(max-width: 1025px)" srcset="img/foto-m.png" type="image/png">
+            <img src="img/foto-g.png" alt="">
+        </picture>
+        <h1>Estudos HTML V7.0</h1>
+        <h2>Inserir Audio</h2>
+        <audio src="aud/bay-street.mp3" controls>
+            <p>Seu Navegado não consegue reproduzir audio... :(</p>
+        </audio> <!-- Compatibilidade com OGG MP3 WAV-->
+        <h1>Estudos HTML V8.0</h1>
+        <h2>Inserir Videos</h2>
+        <video src="midia/meu-video.mp4" poster="img/limoes-capa.png" width="560" controls>
+            <p>Seu Navegado não consegue reproduzir video... :(</p>
+        </video> <!-- Compatibilidade com OGGV MP4 WEBM-->
+        <h2>Inserir Video do Youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1>Estudos HTML V9.0</h1>
+        <h2>Tabelas</h2>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>+</td>
+                <td>2</td>
+                <td>=</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+                <td>e</td>
+            </tr>
+        </table>
+</body>
+</html>

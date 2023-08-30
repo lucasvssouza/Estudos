@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+
+        class App extends React.Component{
+            render(){
+                
+                const noticias = [
+                    {
+                        titulo: "Noticia 1",
+                        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea architecto distinctio, asperiores rerum atque consequatur mollitia corrupti id quam soluta! Earum quo quis illum commodi? Exercitationem sint maxime ab. Dignissimos!",
+                        autor: "Autor: Lucas"
+                    },
+                    {
+                        titulo: "Noticia 2",
+                        texto: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, doloribus? Expedita in vel delectus deserunt sapiente pariatur, quas placeat corrupti. In ipsa recusandae exercitationem odit iusto amet pariatur aliquam odio.",
+                        autor: "Autor: Kaique"
+                    },
+                    {
+                        titulo: "Noticia 3",
+                        texto: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi molestias aut labore eveniet voluptates sunt iste illo consequuntur! Et, molestias! Reiciendis unde architecto blanditiis magni? Dignissimos at ullam error similique.",
+                        autor: "Autor: Natacha"
+                    }
+                ]
+
+                const result = noticias.map(noticia => <Noticia noticia={noticia} />)
+                return(
+                    <div>
+                        <h2>Notícias</h2>
+                        <hr />
+                        {result}
+                    </div>
+                )
+            }
+
+        }
+
+        class Noticia extends React.Component{
+            constructor(props){
+                super(props)
+            }
+            render(){
+                return(
+                    <div>
+                        <h3>{this.props.noticia.titulo}</h3>
+                        <p>{this.props.noticia.texto}</p>
+                        <small><i>{this.props.noticia.autor}</i></small>    
+                    </div>
+                )
+            }
+        }
+
+
+
+        ReactDOM.render(<App />, document.getElementById('root'))
+
+    </script>
+</body>
+</html>

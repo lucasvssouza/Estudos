@@ -1,0 +1,25 @@
+.background{
+    background-image: linear-gradient(to bottom, lightgray, gray, darkgray);
+    background-attachment: fixed;
+}
+
+.title{
+    text-align: center;
+}
+
+.box{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 1.5em;
+    font-style: sans-serif;
+}

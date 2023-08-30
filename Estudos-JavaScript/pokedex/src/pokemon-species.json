@@ -1,0 +1,320 @@
+{
+  "base_happiness": 50,
+  "capture_rate": 45,
+  "color": {
+    "name": "purple",
+    "url": "https://pokeapi.co/api/v2/pokemon-color/7/"
+  },
+  "egg_groups": [
+    { "name": "ground", "url": "https://pokeapi.co/api/v2/egg-group/5/" }
+  ],
+  "evolution_chain": { "url": "https://pokeapi.co/api/v2/evolution-chain/67/" },
+  "evolves_from_species": {
+    "name": "eevee",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/133/"
+  },
+  "form_descriptions": [],
+  "forms_switchable": false,
+  "gender_rate": 1,
+  "genera": [
+    {
+      "genus": "たいようポケモン",
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      }
+    },
+    {
+      "genus": "태양포켓몬",
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      }
+    },
+    {
+      "genus": "太陽寶可夢",
+      "language": {
+        "name": "zh-Hant",
+        "url": "https://pokeapi.co/api/v2/language/4/"
+      }
+    },
+    {
+      "genus": "Pokémon Soleil",
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      }
+    },
+    {
+      "genus": "Sonnen-Pokémon",
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      }
+    },
+    {
+      "genus": "Pokémon Sol",
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      }
+    },
+    {
+      "genus": "Pokémon Sole",
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      }
+    },
+    {
+      "genus": "Sun Pokémon",
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      }
+    },
+    {
+      "genus": "たいようポケモン",
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      }
+    },
+    {
+      "genus": "太阳宝可梦",
+      "language": {
+        "name": "zh-Hans",
+        "url": "https://pokeapi.co/api/v2/language/12/"
+      }
+    }
+  ],
+  "generation": {
+    "name": "generation-ii",
+    "url": "https://pokeapi.co/api/v2/generation/2/"
+  },
+  "growth_rate": {
+    "name": "medium",
+    "url": "https://pokeapi.co/api/v2/growth-rate/2/"
+  },
+  "habitat": {
+    "name": "urban",
+    "url": "https://pokeapi.co/api/v2/pokemon-habitat/8/"
+  },
+  "has_gender_differences": false,
+  "hatch_counter": 35,
+  "id": 196,
+  "is_baby": false,
+  "is_legendary": false,
+  "is_mythical": false,
+  "name": "espeon",
+  "names": [
+    {
+      "language": {
+        "name": "ja-Hrkt",
+        "url": "https://pokeapi.co/api/v2/language/1/"
+      },
+      "name": "エーフィ"
+    },
+    {
+      "language": {
+        "name": "roomaji",
+        "url": "https://pokeapi.co/api/v2/language/2/"
+      },
+      "name": "Eifie"
+    },
+    {
+      "language": {
+        "name": "ko",
+        "url": "https://pokeapi.co/api/v2/language/3/"
+      },
+      "name": "에브이"
+    },
+    {
+      "language": {
+        "name": "zh-Hant",
+        "url": "https://pokeapi.co/api/v2/language/4/"
+      },
+      "name": "太陽伊布"
+    },
+    {
+      "language": {
+        "name": "fr",
+        "url": "https://pokeapi.co/api/v2/language/5/"
+      },
+      "name": "Mentali"
+    },
+    {
+      "language": {
+        "name": "de",
+        "url": "https://pokeapi.co/api/v2/language/6/"
+      },
+      "name": "Psiana"
+    },
+    {
+      "language": {
+        "name": "es",
+        "url": "https://pokeapi.co/api/v2/language/7/"
+      },
+      "name": "Espeon"
+    },
+    {
+      "language": {
+        "name": "it",
+        "url": "https://pokeapi.co/api/v2/language/8/"
+      },
+      "name": "Espeon"
+    },
+    {
+      "language": {
+        "name": "en",
+        "url": "https://pokeapi.co/api/v2/language/9/"
+      },
+      "name": "Espeon"
+    },
+    {
+      "language": {
+        "name": "ja",
+        "url": "https://pokeapi.co/api/v2/language/11/"
+      },
+      "name": "エーフィ"
+    },
+    {
+      "language": {
+        "name": "zh-Hans",
+        "url": "https://pokeapi.co/api/v2/language/12/"
+      },
+      "name": "太阳伊布"
+    }
+  ],
+  "order": 161,
+  "pal_park_encounters": [
+    {
+      "area": {
+        "name": "field",
+        "url": "https://pokeapi.co/api/v2/pal-park-area/2/"
+      },
+      "base_score": 90,
+      "rate": 3
+    }
+  ],
+  "pokedex_numbers": [
+    {
+      "entry_number": 196,
+      "pokedex": {
+        "name": "national",
+        "url": "https://pokeapi.co/api/v2/pokedex/1/"
+      }
+    },
+    {
+      "entry_number": 184,
+      "pokedex": {
+        "name": "original-johto",
+        "url": "https://pokeapi.co/api/v2/pokedex/3/"
+      }
+    },
+    {
+      "entry_number": 167,
+      "pokedex": {
+        "name": "extended-sinnoh",
+        "url": "https://pokeapi.co/api/v2/pokedex/6/"
+      }
+    },
+    {
+      "entry_number": 188,
+      "pokedex": {
+        "name": "updated-johto",
+        "url": "https://pokeapi.co/api/v2/pokedex/7/"
+      }
+    },
+    {
+      "entry_number": 95,
+      "pokedex": {
+        "name": "updated-unova",
+        "url": "https://pokeapi.co/api/v2/pokedex/9/"
+      }
+    },
+    {
+      "entry_number": 5,
+      "pokedex": {
+        "name": "conquest-gallery",
+        "url": "https://pokeapi.co/api/v2/pokedex/11/"
+      }
+    },
+    {
+      "entry_number": 81,
+      "pokedex": {
+        "name": "kalos-coastal",
+        "url": "https://pokeapi.co/api/v2/pokedex/13/"
+      }
+    },
+    {
+      "entry_number": 127,
+      "pokedex": {
+        "name": "original-alola",
+        "url": "https://pokeapi.co/api/v2/pokedex/16/"
+      }
+    },
+    {
+      "entry_number": 54,
+      "pokedex": {
+        "name": "original-akala",
+        "url": "https://pokeapi.co/api/v2/pokedex/18/"
+      }
+    },
+    {
+      "entry_number": 157,
+      "pokedex": {
+        "name": "updated-alola",
+        "url": "https://pokeapi.co/api/v2/pokedex/21/"
+      }
+    },
+    {
+      "entry_number": 58,
+      "pokedex": {
+        "name": "updated-akala",
+        "url": "https://pokeapi.co/api/v2/pokedex/23/"
+      }
+    },
+    {
+      "entry_number": 200,
+      "pokedex": {
+        "name": "galar",
+        "url": "https://pokeapi.co/api/v2/pokedex/27/"
+      }
+    },
+    {
+      "entry_number": 79,
+      "pokedex": {
+        "name": "crown-tundra",
+        "url": "https://pokeapi.co/api/v2/pokedex/29/"
+      }
+    },
+    {
+      "entry_number": 29,
+      "pokedex": {
+        "name": "hisui",
+        "url": "https://pokeapi.co/api/v2/pokedex/30/"
+      }
+    },
+    {
+      "entry_number": 183,
+      "pokedex": {
+        "name": "paldea",
+        "url": "https://pokeapi.co/api/v2/pokedex/31/"
+      }
+    }
+  ],
+  "shape": {
+    "name": "quadruped",
+    "url": "https://pokeapi.co/api/v2/pokemon-shape/8/"
+  },
+  "varieties": [
+    {
+      "is_default": true,
+      "pokemon": {
+        "name": "espeon",
+        "url": "https://pokeapi.co/api/v2/pokemon/196/"
+      }
+    }
+  ]
+}

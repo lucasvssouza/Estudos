@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*
+    em HTML id é = a # em CSS (só por um elemento)
+    em HTML class é = a . em CSS (por mais de um elemento)
+
+    em HTML a tag <span> é utilidada para definir funções de class
+*/
+
+h1#texto{
+    text-align: left;
+    background-color: transparent;
+    border: transparent;
+    }
+
+h1{
+    background-color: aqua;
+    margin: 0%;
+    text-align: center;
+    border: 3px solid black;
+    text-shadow: 1px 1px 2px rgb(0, 126, 126);
+}
+
+h1:hover{
+    background-color: lightcoral;
+}
+
+body{
+    background-color: lightgreen;
+}
+
+main{
+    min-width: 280px;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: white;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
